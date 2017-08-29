@@ -67,23 +67,6 @@ a {
   }
 }
 
-.hah {
-  background-color: red;
-
-  @include mobile{
-    background-color: green;
-  }
-  @include tablet{
-    background-color: orange;
-  }
-  @include desktop{
-    background-color: purple;
-  }
-  @include desktopxl{
-    background-color: blue;
-  }
-}
-
 .splashtext{
   @include mobile{
     font-size:.8em;
@@ -101,15 +84,6 @@ a {
   color:#fff;font-weight: 400;padding:20px 180px 20px 180px;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
 }
 
-//.hidden-tablet{
-//  @include mobile{
-//    display:none;
-//  }
-//  @include tablet{
-//    display:none;
-//  }
-//}
-
 .disp{
   display: block;
   margin-left: auto;
@@ -124,6 +98,7 @@ a {
 }
 .splashbg{
   width:100%;
+  height:100vh;
   filter: brightness(70%) blur(3px) contrast(90%);
 }
 div {
