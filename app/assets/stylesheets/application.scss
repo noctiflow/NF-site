@@ -1,5 +1,5 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * This is f manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -128,4 +128,24 @@ a {
 }
 div {
   //border: thin lime solid;
+}
+
+// NAVBAR CSS----------------------------------------------
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+
+}
+
+.navbar.scrolled {
+    background: rgb(0, 0, 0); /* IE */
+    background: rgba(0, 0, 0, 0.6); /* NON-IE */
+}
+
+a {
+  color: white;
 }
