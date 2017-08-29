@@ -16,6 +16,7 @@
 //= require_tree .
 
 
+
 // NAVBAR JQUERY========================
 
 $(document).ready(function() {
@@ -35,3 +36,4 @@ $(document).ready(function() {
       });
   }
 })
+

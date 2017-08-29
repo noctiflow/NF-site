@@ -53,9 +53,18 @@ $desktop-width: 1128px;
   }
   font-size:18px;
 }
+
 body {
   background-image: url('footer_lodyas.png');
   color: #222;
+}
+
+a {
+  color:#eee;
+  &:hover{
+    color: palegoldenrod;
+    text-decoration: none;
+  }
 }
 
 .hah {
