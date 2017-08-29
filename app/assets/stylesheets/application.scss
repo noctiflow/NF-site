@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+$mobile-width: 529px;
+$tablet-width: 949px;
+$desktop-width: 1128px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width - 1px}){
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}){
+    @content;
+  }
+}
+
+@mixin desktopxl {
+  @media (min-width: #{$desktop-width}){
+    @content;
+  }
+}
+
+* {
+  color: #eee;
+  font-weight: 200;
+  letter-spacing:2px;
+  @include mobile{
+    font-size:12px;
+  }
+  font-size:18px;
+}
+body {
+  background-image: url('footer_lodyas.png');
+  color: #222;
+}
+
+.hah {
+  background-color: red;
+
+  @include mobile{
+    background-color: green;
+  }
+  @include tablet{
+    background-color: orange;
+  }
+  @include desktop{
+    background-color: purple;
+  }
+  @include desktopxl{
+    background-color: blue;
+  }
+}
+
+.splashtext{
+  @include mobile{
+    font-size:.8em;
+    display: none;
+  }
+  @include tablet{
+    font-size:1.2em;
+  }
+  @include desktop{
+    font-size:2em;
+  }
+  @include desktopxl{
+    font-size:2.2em;
+  }
+  color:#fff;font-weight: 400;padding:20px 180px 20px 180px;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
+}
+
+//.hidden-tablet{
+//  @include mobile{
+//    display:none;
+//  }
+//  @include tablet{
+//    display:none;
+//  }
+//}
+
+.disp{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.disptext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.splashbg{
+  width:100%;
+  filter: brightness(70%) blur(3px) contrast(90%);
+}
+div {
+  //border: thin lime solid;
+}
