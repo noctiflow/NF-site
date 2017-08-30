@@ -87,6 +87,23 @@ a {
   color:#fff;font-weight: 400;padding:20px 180px 20px 180px;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
 }
 
+.splashtext2{
+  @include mobile{
+    font-size:.8em;
+    display: none;
+  }
+  @include tablet{
+    font-size:1.2em;
+  }
+  @include desktop{
+    font-size:2em;
+  }
+  @include desktopxl{
+    font-size:2.2em;
+  }
+  color:#fff;font-weight: 400;padding:20px 10px 20px 10px;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
+}
+
 .disp{
   display: block;
   margin-left: auto;
@@ -103,6 +120,15 @@ a {
   width:100%;
   height:100vh;
   filter: brightness(70%) blur(3px) contrast(90%);
+}
+.splashbg2{
+  max-height:100vh;
+  min-width:100vw;
+  filter: brightness(80%) blur(3px) contrast(90%);
+}
+.pop{
+  box-shadow: #222222 4px 4px 4px;
+  border: #222 thin solid;
 }
 div {
   //border: thin lime solid;
