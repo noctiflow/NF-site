@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require ./blur/modernizr.custom.34978.js
+//= require ./blur/blur.js
 //= require_tree .
 
 
@@ -36,4 +38,3 @@ $(document).ready(function() {
       });
   }
 })
-
