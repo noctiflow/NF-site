@@ -130,6 +130,11 @@
 	color: rgba(0, 0, 0, 0);
 	opacity: 0.5;
 }
+.ib-container article.blur h2 a{
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+	color: rgba(0, 0, 0, 0);
+	opacity: 0.5;
+}
 .ib-container article.blur header span{
 	text-shadow: 0px 0px 10px rgba(255, 210, 82, 0.9);
 	color: rgba(255, 210, 82, 0);
