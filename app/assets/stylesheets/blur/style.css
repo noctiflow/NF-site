@@ -2,9 +2,9 @@
 	position: relative;
 	width: 100%;
 	/*margin: 30px auto;*/
-	display: inline-block;
+	display: flex;
 	text-align: center;
-	left: 4vw;
+    justify-content: center;
 }
 .ib-container:before,
 .ib-container:after {
@@ -15,7 +15,7 @@
     clear:both;
 }
 .ib-container article{
-	display: block;
+	/*display: block;*/
 	/*width: 200px;*/
 	/*height: 100%;*/
 	background: #fff;

@@ -79,6 +79,16 @@ textarea,input,button{
 textarea {
   resize: none;
 }
+label {
+  padding:0 !important;
+}
+
+.splashtext{
+  padding:20px 180px 20px 180px;
+}
+.splashtext2{
+  padding:20px 10px 5px 10px;
+}
 
 .splashtext,.splashtext2{
   @include mobile{
@@ -102,11 +112,17 @@ textarea {
   text-shadow: 1px 1px 8px #000;
 }
 
-.splashtext{
-  padding:20px 180px 20px 180px;
+.ptext{
+  @include mobile{
+    padding-bottom: 15px;
+  }
+  @include tablet{
+    padding-bottom: 20px;
+  }
+  padding:5px 30px 30px 30px;
 }
-.splashtext2{
-  padding:20px 10px 5px 10px;
+.ptext2{
+  padding:0px 0px 0px 0px;
 }
 
 .ptext,.ptext2{
@@ -116,30 +132,31 @@ textarea {
     //display: none;
   }
   @include tablet{
-    font-size:.6em;
+    font-size:.8em;
   }
   @include desktop{
-    font-size:.9em;
+    font-size:1.1em;
   }
   @include desktopxl{
-    font-size:.9em;
+    font-size:1.2em;
   }
   color:#fff;font-weight: 200;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
 }
-.ptext{
-  padding:5px 30px 30px 30px;
-}
-.ptext2{
-  padding:0px 0px 0px 0px;
-}
 
 .disp{
+  @include mobile{
+    width:50%;
+  }
+  max-height:80vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15%;
+  width: 25%;
 }
 .disptext{
+  @include mobile{
+    width:50%;
+  }
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -158,6 +175,15 @@ textarea {
 .pop{
   box-shadow: #222222 4px 4px 4px;
   border: #222 thin solid;
+}
+.ib-container {
+  @include tablet{
+    flex-wrap:wrap;
+  }
+  @include mobile{
+    flex-wrap:wrap;
+  }
+
 }
 div {
   //border: thin lime solid;

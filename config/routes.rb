@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'portfolio' => 'portfolio#index'
   get 'pricing' => 'pricing#index'
   get 'contact' => 'contact#index'
+  get 'team' => 'team#index'
 end
