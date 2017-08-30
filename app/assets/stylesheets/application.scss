@@ -17,6 +17,7 @@
 @import "font-awesome";
 @import "blur/demo.css";
 @import "blur/style.css";
+@import "font-awesome-animation.min.css";
 
 $mobile-width: 529px;
 $tablet-width: 949px;
@@ -53,7 +54,7 @@ $desktop-width: 1128px;
   @include mobile{
     font-size:12px;
   }
-  font-size:18px;
+  font-size:12px;
 }
 
 body {
@@ -180,6 +181,7 @@ div {
 
 a {
   color: white;
+  text-shadow: 2px 2px 5px black;
 }
 
 // FOOTER CSS ==============================================
