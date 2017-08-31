@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'portfolio' => 'portfolio#index'
   get 'pricing' => 'pricing#index'
-  get 'contact' => 'contact#index'
+  resources 'contact', only: [:index, :create]
   get 'team' => 'team#index'
 end

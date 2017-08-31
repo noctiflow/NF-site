@@ -176,6 +176,9 @@ label {
   box-shadow: #222222 4px 4px 4px;
   border: #222 thin solid;
 }
+.hidden{
+  display:none;
+}
 .ib-container {
   @include tablet{
     flex-wrap:wrap;
