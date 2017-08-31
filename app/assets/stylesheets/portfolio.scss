@@ -17,8 +17,8 @@
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        // background:;
-        &:hover {
+        background:rgba(0,0,0,0.8);
+        &:hover{
           opacity: 1;
         }
         .portfolio-hover-content {
@@ -45,11 +45,11 @@
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: white;
+      background-color: rgba(0,0,0,0.7);
       h4 {
         margin: 0;
         text-transform: none;
-        color: black;
+        color: palegoldenrod;
         font-weight: bold;
       }
       p {
@@ -107,6 +107,7 @@
     }
     img {
       margin-bottom: 30px;
+      border-radius: 10px;
     }
     button {
       cursor: pointer;
