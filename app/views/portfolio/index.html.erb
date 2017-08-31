@@ -1,1 +1,128 @@
-portfolio
+<br>
+<br>
+<br>
+
+<section style="justify-content: center;" class="bg-light" id="portfolio">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Our Clients</h2>
+         <br>
+         <br>
+        <!-- <h3 class="section-subheading text-muted">Our Clients</h3> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item faa-float animated-hover">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i style="color: palegoldenrod;" class="fa fa-search fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-responsive" src="<%= asset_path( 'portfolio/aaplus_thumbnail.jpg' ) %>" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>AA Plus</h4>
+          <p class="text-muted">Restaurant</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item faa-float animated-hover">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i style="color: palegoldenrod;" class="fa fa-search fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-responsive" src="<%= asset_path( 'portfolio/aroma_thumbnail.jpg' ) %>" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Aroma Coffee</h4>
+          <p class="text-muted">Coffee Shop</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+<!-- Portfolio Modals -->
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>AA PLUS RESTAURANT</h2>
+              <center>
+                <img class="img-responsive" src="<%= asset_path( 'portfolio/aaplus_full.png' ) %>" alt="">
+              </center>
+              <h1><a href="http://www.aaplusrestaurant.com">www.aaplusrestaurant.com</a></h1>
+              <ul class="list-inline">
+                <li>Date: July 2017</li>
+                <li>Client: AA Plus Restaurant</li>
+                <li>Category: Restaurant</li>
+              </ul>
+              <button class="btn btn-primary faa-float animated-hover faa-slow" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>AROMA COFFEE</h2>
+              <center>
+                <img class="img-responsive" src="<%= asset_path( 'portfolio/aroma_full.png' ) %>" alt="">
+              </center>
+              <h1><a href="http://www.aromacoffeevan.com">www.aromacoffeevan.com</a></h1>
+              <ul class="list-inline">
+                <li>Date: July 2017</li>
+                <li>Client: Aroma Coffee</li>
+                <li>Category: Coffee Shop</li>
+              </ul>
+              <button class="btn btn-primary faa-float animated-hover faa-slow" data-dismiss="modal" type="button">
+                <i class="fa fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
