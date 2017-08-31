@@ -12,6 +12,7 @@
 
 
 
+
     <!--<div class="container-fluid" style="position:absolute;width:100%;background-color: #111;z-index:2;height:50px;border:thin #312d4b solid;box-shadow:0px 2px 15px #111111;">-->
       <!--<div class="logo1" style="position:absolute;top:9px;left:10px;"><%= image_tag "noctiflow_logo_32-i.png" %></div>-->
       <!--<div class="col-xs-hidden col-sm-1"></div>-->
@@ -58,16 +59,6 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-
-    <div class="container">
-      <%- flash.each do |name, msg|%>
-        <%- if msg.is_a?(String) %>
-          <div class="alert alert-#{name == :notice ? 'success' : 'error'}">
-            <a href="">aaa</a>
-          </div>
-        <% end %>
-      <% end %>
-    </div>
 
 
     <%= yield %>
