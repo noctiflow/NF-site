@@ -225,16 +225,15 @@ a {
   color: white;
 
 @media (max-width: 767px) {
-  .navbar-collapse
-    {
-        background-color:rgba(0,0,0,0.8);
-        text-align: center;
-    }
-  .navbar-header
-    {
-      // background-color:rgba(0,0,0,0.8);
-    }
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+  .navbar-header {
+    // background-color:rgba(0,0,0,0.8);
+  }
   text-shadow: 1px 1px 3px #111;
+  }
 }
 
 // FOOTER CSS ==============================================
