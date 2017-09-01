@@ -15,11 +15,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
-@import "blur/*";
-//@import "blur/style.css";
+@import "blur/demo.scss";
+@import "blur/style.css";
 @import "portfolio.scss";
 @import "team.scss";
-@import "font-awesome-animation.min.scss";
+//@import "font-awesome-animation.min";
 
 $mobile-width: 529px;
 $tablet-width: 949px;
