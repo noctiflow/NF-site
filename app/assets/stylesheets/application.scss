@@ -67,6 +67,7 @@ body {
 
 a {
   color:#eee;
+  font-weight: 400;
   &:hover{
     color: #d1c092;
     text-decoration: none;
@@ -92,7 +93,7 @@ label {
   padding:20px 10px 5px 10px;
 }
 
-.splashtext,.splashtext2{
+.splashtext,.splashtext2,.wrap{
   @include mobile{
     font-size:.8em;
     display: none;
@@ -221,18 +222,19 @@ div {
 
 a {
   color: white;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 3px #111;
 }
 
 // FOOTER CSS ==============================================
 
-.footer {
+.footer,.footer2 {
   position: fixed;
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 45px;
+  height: 55px;
   background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
 }
 
 // Typewriter Effect CSS ===================================
