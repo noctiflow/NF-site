@@ -30,10 +30,10 @@ ol,ul {
 caption,th {
 	text-align:left;
 }
-h1,h2,h3,h4,h5,h6 {
-	font-size:100%;
-	font-weight:normal;
-}
+//h1,h2,h3,h4,h5,h6 {
+//	font-size:100%;
+//	font-weight:normal;
+//}
 q:before,q:after {
 	content:'';
 }
@@ -52,13 +52,13 @@ abbr,acronym { border:0;
     font-style: normal;
 }
 /* General Demo Style */
-body{
-	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #ddd url(../images/noisy_blue.jpg) repeat top left;
-	font-weight: 400;
-	font-size: 15px;
-	color: #333;
-}
+//body{
+//	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+//	background: #ddd url(../images/noisy_blue.jpg) repeat top left;
+//	font-weight: 400;
+//	font-size: 15px;
+//	color: #333;
+//}
 a{
 	color: #333;
 	text-decoration: none;
