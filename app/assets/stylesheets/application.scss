@@ -222,7 +222,19 @@ div {
 
 a {
   color: white;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 2px 2px 3px black;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse
+    {
+        background-color:rgba(0,0,0,0.8);
+        text-align: center;
+    }
+  .navbar-header
+    {
+      // background-color:rgba(0,0,0,0.8);
+    }
 }
 
 // FOOTER CSS ==============================================
