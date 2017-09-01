@@ -98,7 +98,6 @@ label {
 .splashtext,.splashtext2,.wrap{
   @include mobile{
     font-size:.8em;
-    display: none;
   }
   @include tablet{
     font-size:1.2em;

@@ -2,7 +2,15 @@
   text-align: left;
   // display: inline-block;
   margin: 0px;
+  padding-right: 40px;
+  padding-bottom: 10vw;
+}
 
+.flex{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  padding-top:20px;
 }
 
 .market i{
