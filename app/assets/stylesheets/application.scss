@@ -68,7 +68,7 @@ body {
 a {
   color:#eee;
   &:hover{
-    color: palegoldenrod;
+    color: #d1c092;
     text-decoration: none;
     background-color: rgba(0,0,0,0) !important; //bootstrap override
   }
@@ -194,7 +194,10 @@ label {
   @include mobile{
     flex-wrap:wrap;
   }
-
+}
+.footericons{
+  width:25px;
+  margin: 0px 3px 0px 3px;
 }
 div {
   //border: thin lime solid;
@@ -218,7 +221,7 @@ div {
 
 a {
   color: white;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 1px 1px 3px black;
 }
 
 // FOOTER CSS ==============================================
