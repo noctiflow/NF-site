@@ -18,6 +18,7 @@
 @import "blur/demo.css";
 @import "blur/style.css";
 @import "portfolio.scss";
+@import "marketing.scss";
 @import "team.scss";
 @import "font-awesome-animation.min.css";
 
@@ -236,3 +237,10 @@ a {
 }
 
 // Typewriter Effect CSS ===================================
+
+.wrap{
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Helvetica Neue';
+  text-shadow: 1px 2px black;
+}
