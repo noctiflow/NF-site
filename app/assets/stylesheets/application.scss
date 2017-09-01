@@ -60,7 +60,7 @@ $desktop-width: 1128px;
 }
 
 body {
-  background-image: url(<%= asset_path 'footer_lodyas.png' %>);
+  background-image: url(image_path('footer_lodyas.png'));
   color: #222;
   background-color: black;
 }
