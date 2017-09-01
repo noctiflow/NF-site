@@ -4,9 +4,6 @@ Rails.application.routes.draw do
   get 'portfolio' => 'portfolio#index'
   get 'pricing' => 'pricing#index'
 
-  resources 'contact', only: [:index, :create]           #delete this later along with contact MVC
-                                                         #replaced by contacts MVC
-
   match '/contacts',     to: 'contacts#new',             via: 'get'
   resources "contacts", only: [:new, :create]
 
