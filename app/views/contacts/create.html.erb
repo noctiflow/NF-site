@@ -1,0 +1,16 @@
+<div style="width:100vw;height:100vh;overflow: hidden;">
+  <%= image_tag 'pexels-photo-261628.jpeg', class:'splashbg2' %>
+  <div style="position:absolute;top:7vw;width:100%;text-align: center">
+
+  <div style="z-index: 29 ;background-color: seagreen;text-shadow:1px 1px 8px #222;height: 30px;">
+    <% flash.each do |key, value| %>
+        <div>
+          <a href="#" data-dismiss="alert">×</a>
+          <div class="splashtext">
+            <%= value %>
+          </div>
+        </div>
+    <% end %>
+  </div>
+  </div>
+</div>

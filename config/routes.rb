@@ -3,6 +3,11 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'portfolio' => 'portfolio#index'
   get 'pricing' => 'pricing#index'
+
   resources 'contact', only: [:index, :create]
+
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
+
   get 'team' => 'team#index'
 end

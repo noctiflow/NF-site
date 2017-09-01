@@ -1,5 +1,5 @@
-class ContactController < ApplicationController
-  def index
+class ContactsController < ApplicationController
+  def new
     @contact = Contact.new
   end
 
@@ -10,7 +10,7 @@ class ContactController < ApplicationController
       flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
     else
       flash.now[:error] = 'Cannot send message.'
-      render :index
+      render :new
     end
   end
 end

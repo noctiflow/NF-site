@@ -1,0 +1,30 @@
+<div style="width:100vw;height:100vh;overflow: hidden;">
+  <%= image_tag 'pexels-photo-261628.jpeg', class:'splashbg2' %>
+  <div style="position:absolute;top:7vw;width:100%;">
+    <div class="disp" style="background-color:rgba(100, 90, 108, 0.62);width:60vw;border-radius: 20px;overflow: scroll;padding-bottom: 25px;">
+      <div class="splashtext2">
+        Get in touch with us today!
+      </div>
+
+      <div class="ptext">
+        Fill out the form below to inquire about our services or leave feedback.
+      </div>
+<div class="container-fluid" style="padding:40px;">
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+      <%= f.input :name, :required => true %>
+      <%= f.input :email, :required => true %>
+      <%= f.input :message, :as => :text, :required => true %>
+      <div class= "hidden">
+        <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+      <div>
+        </br>
+        <%= f.button :submit, 'Send message', :class=> "btn btn-primary pull-right" %>
+      </div>
+      <small id="emailHelp" class="form-text" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000">We'll never share your personal information with anyone else.</small>
+  <% end %>
+</div>
+</div>
+  </div>
+</div>
+
