@@ -10,6 +10,8 @@
 /vendor/assets
 
 /public/assets/
+.env
+Procfile
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
