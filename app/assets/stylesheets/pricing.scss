@@ -1,3 +1,13 @@
-// Place all the styles related to the pricing controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.pricetext{
+  // color: purple !important;
+  // font-weight: bold;
+  font-size: 15px !important;
+}
+
+.containerbg{
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+.differentTable, .differentTable td{
+   border-color: palegoldenrod;
+}

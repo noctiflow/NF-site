@@ -19,6 +19,7 @@
 @import "blur/style";
 @import "portfolio.scss";
 @import "marketing.scss";
+@import "pricing.scss";
 @import "team.scss";
 @import "font-awesome-animation.min";
 
@@ -222,17 +223,24 @@ div {
 
 a {
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 
 @media (max-width: 767px) {
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
   }
-  .navbar-header {
-    // background-color:rgba(0,0,0,0.8);
+
+  text-shadow: 2px 2px 4px #111;
   }
-  text-shadow: 1px 1px 3px #111;
-  }
+}
+@media (max-width: 767px) {
+  .navbar-collapse
+    {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      text-shadow: 1px 1px 3px #111;
+    }
 }
 
 // FOOTER CSS ==============================================
@@ -254,4 +262,5 @@ a {
   font-weight: 500;
   font-family: 'Helvetica Neue';
   text-shadow: 1px 1px 4px black;
+  border-radius: 0px !important;
 }
