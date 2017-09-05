@@ -17,6 +17,7 @@
 @import "font-awesome";
 @import "blur/demo.scss";
 @import "blur/style";
+@import "animate/animate";
 @import "portfolio.scss";
 @import "marketing.scss";
 @import "pricing.scss";
@@ -62,7 +63,7 @@ $desktop-width: 1128px;
 }
 
 body {
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue',Helvetica, Arial, "Lucida Grande", sans-serif;
   background: image_url('footer_lodyas.png');
   color: #222;
   background-color: black;
@@ -144,7 +145,7 @@ label {
   @include desktopxl{
     font-size:1.2em;
   }
-  color:#fff;font-weight: 200;border-radius: 7px;font-family: 'Helvetica Neue'; text-align: center;text-shadow: 1px 1px 8px #000;
+  color:#fff;font-weight: 200;border-radius: 7px; text-align: center;text-shadow: 1px 1px 8px #000;
 }
 
 .disp{
@@ -196,6 +197,9 @@ label {
   @include mobile{
     flex-wrap:wrap;
   }
+}
+.swipe{
+  opacity: 0;
 }
 .footericons{
   width:25px;
@@ -260,7 +264,6 @@ a {
 .wrap{
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Helvetica Neue';
   text-shadow: 1px 1px 4px black;
   border-radius: 0px !important;
 }
