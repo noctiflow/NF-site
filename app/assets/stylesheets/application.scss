@@ -116,7 +116,31 @@ label {
   text-align: center;
   text-shadow: 1px 1px 8px #000;
 }
-
+.splashtext3{
+  @include mobile{
+    font-size:1.6em;
+  }
+  @include tablet{
+    font-size:1.8em;
+  }
+  @include desktop{
+    font-size:2em;
+  }
+  @include desktopxl{
+    font-size:2.2em;
+  }
+  color:#fff;
+  font-weight: 400;
+  border-radius: 7px;
+  text-align: center;
+  text-shadow: 1px 1px 8px #000;
+  background-color: #111;
+  border-radius:0;
+  padding:10px;
+  margin-bottom:20px;
+  border-top: #444 thin solid;
+  box-shadow: 2px 2px 2px #222;
+}
 .ptext{
   @include mobile{
     padding-bottom: 15px;
