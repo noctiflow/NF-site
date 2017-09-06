@@ -52,6 +52,10 @@ $desktop-width: 1128px;
   }
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   color: #eee;
   font-weight: 200;
