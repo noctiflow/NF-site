@@ -1,9 +1,10 @@
 .market{
   text-align: left;
   // display: inline-block;
+
   margin: 0px;
   padding-right: 40px;
-  padding-bottom: 10vw;
+  padding-bottom: 5vw;
 }
 
 .flex{
@@ -26,6 +27,26 @@
   text-shadow: 1px 2px black;
 }
 
+.mast__header h1 span{
+  font-weight: bold;
+  font-size: 20px !important;
+  text-decoration: underline;
+  color:	#D5AD6D; /*if no support for background-clip*/
+	background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+	background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px palegoldenrod !important;
+}
+
+.mast p span{
+  font-weight: bold !important;
+}
+
+.ptext{
+  font-size: 12px !important;
+}
 
 
 // BURNING TEXT CSS ============================================================
@@ -132,8 +153,7 @@ body {
   }
 
   &__header{
-    font-size: 20px;
-    text-shadow: 1px 2px black;
+
 
   }
   &__title{
