@@ -57,7 +57,7 @@ en:
   text_2: "Client"
   text_3: "Category"
   text_4:
-    one: "%{count} Month"
+    one: "Month"
     other: "%{count} Months"
   text_5: "Web Design"
   text_6:

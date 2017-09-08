@@ -1,11 +1,12 @@
   <div class="disp container" style="background-color:rgba(0, 0, 0, 0.4);width:70vw;border-radius: 20px;overflow: scroll;margin-top: 60px; margin-bottom: 40px; text-align: left;">
         <div class="splashtext2">
-          GET IN TOUCH WITH US TODAY!
+          <%= t('header_23') %>
         </div>
 
         <div class="ptext mast__text js-spanize">
-          Fill out the form below to inquire about our services or leave feedback.
+          <%= t('text_24') %>
         </div>
+
         <div class="container-fluid" style="padding:30px;">
           <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
               <%= f.input :name, :required => true %>
@@ -16,9 +17,9 @@
               </div>
               <div>
                 </br>
-                <p id="emailHelp" class="form-text mast__text js-spanize" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000; text-align: center">We'll never share your personal information with anyone else.</p>
+                <p id="emailHelp" class="form-text mast__text js-spanize" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000; text-align: center"><%= t('text_28') %></p>
                 <br>
-                <center><%= f.button :submit, 'Send message', :class=> "btn btn-primary btnmsg faa-pulse animated-hover faa-slow" %></center>
+                <center><%= f.button :submit, t('send_btn'), :class=> "btn btn-primary btnmsg faa-pulse animated-hover faa-slow" %></center>
               </div>
           <% end %>
         </div>
