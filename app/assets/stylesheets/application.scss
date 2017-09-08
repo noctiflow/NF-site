@@ -83,6 +83,12 @@ a {
     text-decoration: none;
     background-color: rgba(0,0,0,0) !important; //bootstrap override
   }
+  &:focus{
+    color: #d1c092;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0) !important;
+    outline: none;
+  }
 }
 
 textarea,input,button{
