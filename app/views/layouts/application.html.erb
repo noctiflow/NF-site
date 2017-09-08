@@ -32,12 +32,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><%= link_to 'About', '/' %></li>
-            <li><%= link_to 'Portfolio', 'portfolio' %></li>
-            <li><%= link_to 'Pricing', 'pricing' %></li>
-            <li><%= link_to 'Marketing', 'marketing' %></li>
-            <li><%= link_to 'Team', 'team' %></li>
-            <li><%= link_to 'Contact', 'contacts#new' %></li>
+            <li><%= link_to t('about'), '/' %></li>
+            <li><%= link_to t('portfolio'), 'portfolio' %></li>
+            <li><%= link_to t('pricing'), 'pricing' %></li>
+            <li><%= link_to t('marketing'), 'marketing' %></li>
+            <li><%= link_to t('team'), 'team' %></li>
+            <li><%= link_to t('contact'), 'contacts#new' %></li>
             <% if I18n.locale == I18n.default_locale %>
               <li><%= link_to '中文', url_for( :locale => 'zh_TW' )  %></li>
             <% else %>
@@ -58,7 +58,7 @@
     <div class="container-fluid footer" style="z-index: 101;">
         <div class="container-flud">
           <div class="hidden-xs col-sm-4">
-            <span style="font-weight:600;font-size:8px;letter-spacing: 2px;">SOCIAL</span>
+            <span style="font-weight:600;font-size:8px;letter-spacing: 2px;"><%= t('header_7') %></span>
             <div>
               <a href="mailto:noctiflow@gmail.com">
                 <%=image_tag "GMAIL.png", class: "footericons" %>
@@ -72,7 +72,7 @@
           </span>
           </div>
           <div class="hidden-xs col-sm-4">
-            <span style="font-weight:600;font-size:8px;letter-spacing: 2px;">POWERED BY</span>
+            <span style="font-weight:600;font-size:8px;letter-spacing: 2px;"><%= t('header_6') %></span>
             <div>
               <a href="http://rubyonrails.org/"><%=image_tag "ruby-on-rails-profile.png" , class: "footericons" %></a>
               <a href="https://www.heroku.com"><%=image_tag "heroku-512.png" , class: "footericons" %></a>
