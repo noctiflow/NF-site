@@ -69,6 +69,8 @@ $desktop-width: 1128px;
 body {
   font-family: 'Helvetica Neue',Helvetica, Arial, "Lucida Grande", sans-serif;
   background: image_url('footer_lodyas.png');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
   color: #222;
   background-color: black;
 }
@@ -134,11 +136,12 @@ label {
     font-size:2.2em;
   }
   color:#fff;
+  text-transform: uppercase;
   font-weight: 400;
   border-radius: 7px;
   text-align: center;
-  text-shadow: 1px 1px 8px #000;
-  background-color: #111;
+  text-shadow: 1px 1px 8px #C0C0C0;
+  background-color: rgba(0,0,0,0.4);
   border-radius:0;
   padding:10px;
   margin-bottom:20px;
