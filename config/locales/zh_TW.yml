@@ -1,0 +1,108 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+zh_TW:
+  about: "關於"
+  portfolio: "作品集"
+  pricing: "價目表"
+  marketing: "服務項目"
+  team: "團隊介紹"
+  contact: "聯絡方式"
+
+
+  header_1: "從概念到成品"
+  header_2: "響應式設計"
+  header_3: "UX/UI"
+  header_4: "外掛與客製化"
+  header_5: "我們合作對象"
+  header_6: "POWERED BY"
+  header_7: "媒體"
+  header_8: "好好味 百搭魚湯米線"
+  header_9: "餐廳"
+  header_10: "Aroma Coffee"
+  header_11: "咖啡店"
+  header_12: "價目表"
+  header_13: "LITE"
+  header_14: "STANDARD"
+  header_15: "ADVANCED"
+  header_16: "PRO"
+  header_17: "ELITE"
+  header_18: "服務項目"
+  header_19: "商標設計"
+  header_20: "拍照"
+  header_21: "名片設計"
+  header_22: "客製化設計"
+  header_23: "聯絡我們！"
+
+
+  text_1: "完成日期"
+  text_2: "客戶"
+  text_3: "種類"
+  text_4:
+    one: "%{count} 月"
+    other: "%{count} 月"
+  text_5: "網頁設計"
+  text_6:
+    one: "%{count} 頁"
+    other: "%{count} 頁"
+  text_7: "保固維修"
+  text_8: "內容管理系統 部落格"
+  text_9: "WordPress"
+  text_10: "手機版優化"
+  text_11: "已包含在內"
+  text_12: "網頁安全"
+  text_13: "多種語言"
+  text_14: "語言"
+  text_15: "網路流量分析"
+  text_16: "Team Noctiflow"
+  text_17: "哈囉!"
+  text_18: "嗨!"
+  text_19: "JEFFREY MACDONALD"
+  text_20: "RICHARD WANG"
+  text_21: "創辦人 & 網頁開發者"
+  text_22: "I love to introduce myself as a hardcore Web Designer."
+  text_23: "寫多少網頁 = 喝多少咖啡"
+  text_24: "如需詳問關於我們的服務或是提供意見的話，請使用以下方式提交，謝謝！"
+  text_25: "名字"
+  text_26: "Email"
+  text_27: "訊息內容"
+  text_28: "我們絕對不會洩露您的個人資料，並維護您的隱私權。"
+  text_29: "您的訊息以成功送出，我們會儘快與您聯絡，謝謝。"
+  text_30: "很抱歉您的訊息無法送出，請利用其他方式與我們聯絡。"
+
+
+  send_btn: "傳送訊息"
+  close_btn: "關閉"
+
+
+  blurb_1: "從最基本的構思到成品與維護，我們都會為您提供最優質的服務。"
+  blurb_2: "Thorough testing ensures your website is up-to-date and easily viewable on all the latest platforms and browsers, allowing your audience to get the full experience whether mobile or on a desktop."
+  blurb_3: "Allowing users to have straight-forward, enjoyable experiences on the web is fundamental in our design. We custom tailor our websites from top to bottom to leave lasting impressions."
+  blurb_4: "On top of our regular services, we also provide options for Wordpress sites, analytics, search engine optimization, and more. Get in touch with us to find out what we can do for you."
+  blurb_5: "Haven't figured out the perfect logo for your business yet? Don't worry, our design team will assist you in creating a professional, eye-catching logo."
+  blurb_6: "If you do not have photos for your business, we'll take care of it! Our designers will handle any photo editing to ensure they look stunning."
+  blurb_7: "Got your logo? then you are definitely ready for a custom business card that will make your business stand out!"
+  blurb_8: "Just like dresses and suits, we will have your designs custom tailored to fit perfectly for you."
+  blurb_9: "NOTHING SPEAKS LOUDER THAN QUALITY DESIGN WITH GENUINE SERVICES."
+  blurb_10: "We know how important it is to have the right Logo and Designs to achieve the best marketing outcome for your business"
+  blurb_11: "that is why Noctiflow will make that happen for you."
+  blurb_12: "Please contact us for further information regarding the services mentioned above."
+  blurb_13: "Noctiflow will be glad to offer you with a free quote to assist you further."
