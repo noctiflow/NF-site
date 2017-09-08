@@ -1,15 +1,12 @@
-<div style="width:100vw;height:100vh;overflow: hidden;">
-  <%= image_tag 'pexels-photo-261628.jpg', class:'splashbg2' %>
-  <div style="position:absolute;top:7vw;width:100%;">
-    <div class="disp" style="background-color:rgba(100, 90, 108, 0.62);width:60vw;border-radius: 20px;overflow: scroll;padding-bottom: 25px;">
+  <div class="disp container" style="background-color:rgba(0, 0, 0, 0.4);width:70vw;border-radius: 20px;overflow: scroll;margin-top: 60px; margin-bottom: 40px; text-align: left;">
         <div class="splashtext2">
-          Get in touch with us today!
+          GET IN TOUCH WITH US TODAY!
         </div>
 
-        <div class="ptext">
+        <div class="ptext mast__text js-spanize">
           Fill out the form below to inquire about our services or leave feedback.
         </div>
-        <div class="container-fluid" style="padding:40px;">
+        <div class="container-fluid" style="padding:30px;">
           <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
               <%= f.input :name, :required => true %>
               <%= f.input :email, :required => true %>
@@ -19,12 +16,12 @@
               </div>
               <div>
                 </br>
-                <%= f.button :submit, 'Send message', :class=> "btn btn-primary pull-right" %>
+                <p id="emailHelp" class="form-text mast__text js-spanize" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000; text-align: center">We'll never share your personal information with anyone else.</p>
+                <br>
+                <center><%= f.button :submit, 'Send message', :class=> "btn btn-primary btnmsg faa-pulse animated-hover faa-slow" %></center>
               </div>
-              <small id="emailHelp" class="form-text" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000">We'll never share your personal information with anyone else.</small>
           <% end %>
         </div>
     </div>
   </div>
 </div>
-

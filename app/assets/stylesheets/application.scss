@@ -102,6 +102,18 @@ label {
   padding:0 !important;
 }
 
+.btnmsg {
+	border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: palegoldenrod;
+  color: black;
+}
+.btnmsg:hover {
+  background-color: black;
+  border: 1px solid transparent;
+  color: palegoldenrod;
+}
+
 .splashtext{
   padding:20px 180px 20px 180px;
 }
@@ -126,7 +138,7 @@ label {
   font-weight: 400;
   border-radius: 7px;
   text-align: center;
-  text-shadow: 1px 1px 8px #000;
+  text-shadow: 1px 1px 8px #C0C0C0;
 }
 .splashtext3{
   @include mobile{
@@ -144,15 +156,13 @@ label {
   color:#fff;
   text-transform: uppercase;
   font-weight: 400;
-  border-radius: 7px;
   text-align: center;
   text-shadow: 1px 1px 8px #C0C0C0;
   background-color: rgba(0,0,0,0.4);
-  border-radius:0;
   padding:10px;
   margin-bottom:20px;
   border-top: #444 thin solid;
-  box-shadow: 2px 2px 2px #222;
+  box-shadow: 2px 2px 5px #222;
 }
 .ptext{
   @include mobile{
@@ -190,10 +200,24 @@ label {
     width:50%;
   }
   max-height:80vh;
+  font-weight: bold;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  overflow: auto;
+
+    /* Make sure the inner div is not larger than the container
+     * so that we have room to scroll.
+     */
+    max-height: 100%;
+
+    /* Pick an arbitrary margin/padding that should be bigger
+     * than the max width of all the scroll bars across
+     * the devices you are targeting.
+     * padding = -margin
+     */
+    overflow: hidden;
 }
 .disptext{
   @include mobile{
