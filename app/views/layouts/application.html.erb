@@ -32,15 +32,21 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><%= link_to t('about'), '/' %></li>
-            <li><%= link_to t('portfolio'), 'portfolio' %></li>
-            <li><%= link_to t('pricing'), 'pricing' %></li>
-            <li><%= link_to t('marketing'), 'marketing' %></li>
-            <li><%= link_to t('team'), 'team' %></li>
-            <li><%= link_to t('contact'), 'contacts#new' %></li>
             <% if I18n.locale == I18n.default_locale %>
+              <li><%= link_to t('about'), root_path %></li>
+              <li><%= link_to t('portfolio'), 'portfolio' %></li>
+              <li><%= link_to t('pricing'), 'pricing' %></li>
+              <li><%= link_to t('marketing'), 'marketing' %></li>
+              <li><%= link_to t('team'), 'team' %></li>
+              <li><%= link_to t('contact'), 'contacts#new' %></li>
               <li><%= link_to '中文', url_for( :locale => 'zh_TW' )  %></li>
             <% else %>
+              <li><%= link_to t('about'), root_path(:locale => 'zh_TW') %></li>
+              <li><%= link_to t('portfolio'), portfolio_path(:locale => 'zh_TW') %></li>
+              <li><%= link_to t('pricing'), pricing_path(:locale => 'zh_TW') %></li>
+              <li><%= link_to t('marketing'), marketing_path(:locale => 'zh_TW') %></li>
+              <li><%= link_to t('team'), team_path(:locale => 'zh_TW') %></li>
+              <li><%= link_to t('contact'), new_contact_path(:locale => 'zh_TW') %></li>
               <li><%= link_to "English", { :locale=>'en' } %></li>
             <%end%>
           </ul>

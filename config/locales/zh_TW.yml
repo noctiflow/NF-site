@@ -57,7 +57,7 @@ zh_TW:
   text_2: "客戶"
   text_3: "種類"
   text_4:
-    one: "%{count} 月"
+    one: "月"
     other: "%{count} 月"
   text_5: "網頁設計"
   text_6:
