@@ -61,14 +61,14 @@
           <div class="col-lg-12 mx-auto">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2><%= t('header_8') %> <%= t('header_9') %></h2>
+              <h2><%= t('header_8') %></h2>
               <center>
                 <img class="img-responsive" src="<%= asset_path( 'portfolio/aaplus_full.jpg' ) %>" alt="">
               </center>
               <h1><a href="http://www.aaplusrestaurant.com">www.aaplusrestaurant.com</a></h1>
               <ul class="list-inline">
                 <li><%= t('text_1') %>: <%= t('july') %> 2017</li>
-                <li><%= t('text_2') %>: <%= t('header_8') %> <%= t('header_9') %></li>
+                <li><%= t('text_2') %>: <%= t('header_8') %></li>
                 <li><%= t('text_3') %>: <%= t('header_9') %></li>
               </ul>
               <button class="btn btn-primary faa-float animated-hover faa-slow" data-dismiss="modal" type="button">
@@ -107,8 +107,8 @@
                 <li><%= t('text_2') %>: <%= t('header_10') %></li>
                 <li><%= t('text_3') %>: <%= t('header_11') %></li>
               </ul>
-              <button class="btn btn-primary faa-float animated-hover faa-slow" data-dismiss="modal" type="button">
-                <i class="fa fa-times"></i>
+              <button class="btn btn-primary faa-float animated-hover faa-slow btnclose" data-dismiss="modal" type="button">
+                <i style="color:black;" class="fa fa-times-circle"></i>
                 <%= t('close_btn') %></button>
             </div>
           </div>
