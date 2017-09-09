@@ -152,3 +152,15 @@
     opacity: 0;
   }
 }
+
+.btnclose {
+	border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: palegoldenrod;
+  color: black;
+}
+.btnclose:hover {
+  background-color: silver;
+  border: 1px solid transparent;
+  color: black;
+}
