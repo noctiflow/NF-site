@@ -1,6 +1,4 @@
 .pricetext{
-  // color: purple !important;
-  // font-weight: bold;
   font-size: 15px !important;
 }
 
@@ -10,6 +8,15 @@
 
 .containerbg{
   background-color: rgba(0,0,0,0.4) !important;
+  height: 100%;
+}
+
+.containerbg2{
+  width: 185px;
+}
+
+.containerbg3{
+  width: 500px;
 }
 
 .differentTable, .differentTable td{

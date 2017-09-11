@@ -51,7 +51,9 @@ en:
   header_21: "Business Card"
   header_22: "Custom Designs"
   header_23: "GET IN TOUCH WITH US TODAY!"
-
+  header_24: "Server Plans"
+  header_25: "Domain Service"
+  header_26: "Purchasing Domain Name"
 
   text_1: "Date"
   text_2: "Client"
@@ -87,7 +89,19 @@ en:
   text_28: "We'll never share your personal information with anyone else."
   text_29: "Thank you for your message. We will contact you soon!"
   text_30: "Cannot send message."
-
+  text_31: "Storage"
+  text_32: "EMAIL"
+  text_33: "Backup"
+  text_34:
+    one: "%{count} GB"
+    other: "%{count} GB"
+  text_35: "Speed"
+  text_36:
+    one: "%{count} X"
+    other: "%{count} X"
+  text_37: "Normal"
+  text_38: "Name"
+  text_39: "Message"
 
   send_btn: "Send Message"
   close_btn: "Close Project"
@@ -96,7 +110,7 @@ en:
   blurb_1: "We have you covered every step of the way, from drafting and wireframing to deployment and maintenance. Anything from simple, single page designs to fully-fledged web applications."
   blurb_2: "Thorough testing ensures your website is up-to-date and easily viewable on all the latest platforms and browsers, allowing your audience to get the full experience whether mobile or on a desktop."
   blurb_3: "Allowing users to have straight-forward, enjoyable experiences on the web is fundamental in our design. We custom tailor our websites from top to bottom to leave lasting impressions."
-  blurb_4: "On top of our regular services, we also provide options for Wordpress sites, analytics, search engine optimization, and more. Get in touch with us to find out what we can do for you."
+  blurb_4: "On top of our regular services, we also provide options for Wordpress sites, analytics, SEO(Search Engine )ptimization), and more. Get in touch with us to find out what we can do for you."
   blurb_5: "Haven't figured out the perfect logo for your business yet? Don't worry, our design team will assist you in creating a professional, eye-catching logo."
   blurb_6: "If you do not have photos for your business, we'll take care of it! Our designers will handle any photo editing to ensure they look stunning."
   blurb_7: "Got your logo? then you are definitely ready for a custom business card that will make your business stand out!"
@@ -106,5 +120,5 @@ en:
   blurb_11: "that is why Noctiflow will make that happen for you."
   blurb_12: "Please contact us for further information regarding the services mentioned above."
   blurb_13: "Noctiflow will be glad to offer you with a free quote to assist you further."
-
-
+  blurb_14: "Please contact us for more information regarding this option."
+  blurb_15: "Looking for the perfect domain name that suits your business? Please contact us and we will be happy to assist you."

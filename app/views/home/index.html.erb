@@ -12,9 +12,16 @@
       </div>
       <br>
         <center>
-          <div class="typewrite" data-period="1000" data-type='[ "Stunning, Organic Website Designs Built to Suit Your Needs.", "Welcome to Noctiflow.", "I Love to Code.", "I Love Coffee Too." , "Feel Free To Ask Us Anything!" ]'>
-          <span class="wrap"></span>
-          </div>
+          <% if I18n.locale == I18n.default_locale %>
+            <div class="typewrite" data-period="2500" data-type='[ "Stunning, Organic Website Designs Built to Suit Your Needs", "Welcome to Noctiflow", "I Love to Code", "I Love Coffee Too" , "Feel Free To Ask Us Anything!" ]'>
+            <span class="wrap"></span>
+            </div>
+          <% else %>
+            <div class="typewrite" data-period="2500" data-type='[ "客製化，高品質，一條龍的優質網路設計服務", "歡迎來到 Noctiflow", "我們熱愛Coding！", "我們也愛喝咖啡！" , "盡情詢問我們任何有關的問題！" ]'>
+            <span class="wrap"></span>
+            </div>
+          <%end%>
+
         </center>
       </div>
 
