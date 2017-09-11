@@ -114,7 +114,7 @@ en:
   blurb_1: "We have you covered every step of the way, from drafting and wireframing to deployment and maintenance. Anything from simple, single page designs to fully-fledged web applications."
   blurb_2: "Thorough testing ensures your website is up-to-date and easily viewable on all the latest platforms and browsers, allowing your audience to get the full experience whether mobile or on a desktop."
   blurb_3: "Allowing users to have straight-forward, enjoyable experiences on the web is fundamental in our design. We custom tailor our websites from top to bottom to leave lasting impressions."
-  blurb_4: "On top of our regular services, we also provide options for Wordpress sites, analytics, SEO(Search Engine )ptimization), and more. Get in touch with us to find out what we can do for you."
+  blurb_4: "On top of our regular services, we also provide options for Wordpress sites, analytics, SEO(Search Engine Optimization), and more. Get in touch with us to find out what we can do for you."
   blurb_5: "Haven't figured out the perfect logo for your business yet? Don't worry, our design team will assist you in creating a professional, eye-catching logo."
   blurb_6: "If you do not have photos for your business, we'll take care of it! Our designers will handle any photo editing to ensure they look stunning."
   blurb_7: "Got your logo? then you are definitely ready for a custom business card that will make your business stand out!"
@@ -130,7 +130,7 @@ en:
   blurb_17: "(Search Engine Optimization) Marketing and visibility is crucial to any business. We can optimize your website to maximize on this across many search engines, bringing your project the attention it needs."
   blurb_18: "Long load times scaring away customers? Not with Noctiflow. Every project we take on gets thoroughly inspected to ensure a lightweight, streamlined experience."
   blurb_19: "Want to reach a broader multicultural audience? We'll happily provide layouts for your website in multiple languages, depending on what you need."
-  
+
   errors:
     messages:
       blank: "Please fill in the missing fields."
