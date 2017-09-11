@@ -130,3 +130,7 @@ en:
   blurb_17: "(Search Engine Optimization) Marketing and visibility is crucial to any business. We can optimize your website to maximize on this across many search engines, bringing your project the attention it needs."
   blurb_18: "Long load times scaring away customers? Not with Noctiflow. Every project we take on gets thoroughly inspected to ensure a lightweight, streamlined experience."
   blurb_19: "Want to reach a broader multicultural audience? We'll happily provide layouts for your website in multiple languages, depending on what you need."
+  
+  errors:
+    messages:
+      blank: "Please fill in the missing fields."
