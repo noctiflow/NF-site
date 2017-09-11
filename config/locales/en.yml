@@ -122,3 +122,7 @@ en:
   blurb_13: "Noctiflow will be glad to offer you with a free quote to assist you further."
   blurb_14: "Please contact us for more information regarding this option."
   blurb_15: "Looking for the perfect domain name that suits your business? Please contact us and we will be happy to assist you."
+
+  errors:
+    messages:
+      blank: "Please fill in the missing fields."

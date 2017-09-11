@@ -19,7 +19,11 @@
                 </br>
                 <p id="emailHelp" class="form-text mast__text js-spanize" style="color:#aaa;font-style:italic;font-size:1em;text-shadow: 1px 1px 4px #000; text-align: center"><%= t('text_28') %></p>
                 <br>
+                <% if I18n.locale == I18n.default_locale %>
                 <center><%= f.button :submit, t('send_btn'), :class=> "btn btn-primary btnmsg faa-pulse animated-hover faa-slow" %></center>
+                <% else %>
+                <center><%= f.button :submit, t('send_btn'), :class=> "btn btn-primary btnmsg faa-pulse animated-hover faa-slow", :locale => 'zh_TW' %></center>
+                <% end %>
               </div>
           <% end %>
         </div>
