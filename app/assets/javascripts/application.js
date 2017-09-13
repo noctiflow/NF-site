@@ -118,7 +118,7 @@ $(document).ready(function() {
     video.addEventListener('click',function(){
         video.play();
     },false);
-    
+
     var first = 0;
     var second =0;
     var third = 0;
