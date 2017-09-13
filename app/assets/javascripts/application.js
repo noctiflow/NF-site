@@ -114,6 +114,11 @@ var TxtType = function(el, toRotate, period) {
 
 
 $(document).ready(function() {
+    var video = document.getElementById('video');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
+    
     var first = 0;
     var second =0;
     var third = 0;
