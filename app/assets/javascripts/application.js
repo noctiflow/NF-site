@@ -110,114 +110,29 @@ var TxtType = function(el, toRotate, period) {
     };
 
 
-    // BURN IN TEXT JS==========================================================
+// BURN IN TEXT JS==========================================================
+
+  $(document).ready(function() {
+    var s,
+    spanizeLetters = {
+      settings: {
+        letters: $('.js-spanize'),
+      },
+      init: function() {
+        s = this.settings;
+        this.bindEvents();
+      },
+      bindEvents: function(){
+        s.letters.html(function (i, el) {
+          //spanizeLetters.joinChars();
+          var spanizer = $.trim(el).split("");
+          return '<span>' + spanizer.join('</span><span>') + '</span>';
+        });
+      },
+    };
+    spanizeLetters.init();
+  })(jQuery);
 
 
-$(document).ready(function() {
-    var video = document.getElementById('video');
-    video.addEventListener('click',function(){
-        video.play();
-    },false);
 
-    var first = 0;
-    var second =0;
-    var third = 0;
-    var fourth =0;
-    window.addEventListener("scroll",function(event){
-        var mobile = 410;
-        var tablet = 781;
-        var desktop = 992;
-        var width = $(window).width();
-        var height = this.scrollY;
-
-        function firstanim(){
-            if(!first){
-                $('#first-left').addClass('animated fadeInLeft');
-                $('#first-right').addClass('animated fadeInRight');
-                first = 1;
-            }
-        }
-        function secondanim(){
-            if(!second){
-                $('#second-left').addClass('animated fadeInLeft');
-                $('#second-right').addClass('animated fadeInRight');
-                second = 1;
-                firstanim();
-            }
-        }
-        function thirdanim(){
-            if(!third){
-                $('#third-left').addClass('animated fadeInLeft');
-                $('#third-right').addClass('animated fadeInRight');
-                third = 1;
-                secondanim();
-                firstanim();
-            }
-        }
-        function fourthanim(){
-            if(!fourth){
-                $('#fourth-left').addClass('animated fadeInLeft');
-                $('#fourth-right').addClass('animated fadeInRight');
-                fourth = 1;
-                thirdanim();
-                secondanim();
-                firstanim();
-            }
-        }
-
-        if(!fourth){
-            if(width>desktop){
-                if (height > 280 && height < 635) {
-                    firstanim();
-                }
-                else if (height >= 600 && height < 970) {
-                    secondanim();
-                }
-                else if (height >= 933 && height < 1047){
-                    thirdanim();
-                }
-                else if (height >= 1270) {
-                    fourthanim();
-                }
-            }
-            else if(width<=desktop && width>tablet){
-                if(height>400){
-                    firstanim();
-                }
-                if(height>1182) {
-                    secondanim();
-                }
-                if(height>1932) {
-                    thirdanim();
-                }
-                if(height>2600) {
-                    fourthanim();
-                }
-            }
-            else{
-                firstanim();
-                secondanim();
-                thirdanim();
-                fourthanim();
-            }
-        }
-    })
-  var s,
-  spanizeLetters = {
-    settings: {
-      letters: $('.js-spanize'),
-    },
-    init: function() {
-      s = this.settings;
-      this.bindEvents();
-    },
-    bindEvents: function(){
-      s.letters.html(function (i, el) {
-        //spanizeLetters.joinChars();
-        var spanizer = $.trim(el).split("");
-        return '<span>' + spanizer.join('</span><span>') + '</span>';
-      });
-    },
-  };
-  spanizeLetters.init();
-})
+// ===============================================================================
