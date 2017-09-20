@@ -214,7 +214,7 @@ var TxtType = function(el, toRotate, period) {
       },
     };
     spanizeLetters.init();
-  })(jQuery);
+  })
 
 
 
