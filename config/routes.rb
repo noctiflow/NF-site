@@ -10,5 +10,8 @@ Rails.application.routes.draw do
 
     get 'marketing' => 'marketing#index'
     get 'team' => 'team#index'
+
+    match '/showcase',     to: 'showcase#new',             via: 'get'
+    resources "showcase", only: [:new, :create]
   end
 end
