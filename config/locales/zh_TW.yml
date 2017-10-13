@@ -59,6 +59,7 @@ zh_TW:
   header_29: "網頁系統優化"
   header_30: "翻譯"
   header_31: "不確定那一項計畫適合您？"
+  header_32: "基本"
 
 
   text_1: "完成日期"
@@ -112,6 +113,11 @@ zh_TW:
   text_41: "設計師 & 網頁開發者"
   text_42: "我是 Nic!"
   text_43: "沒關係，我們可以幫助您選擇最合適您的計畫。 請與我們聯繫，我們會很樂意的協助您。"
+  text_44: "SSL 認證"
+  text_45:
+    one: "%{count} MB"
+    other: "%{count} MB"
+  text_46: "不適用於Wordpress網站"
 
 
   send_btn: "傳送訊息"

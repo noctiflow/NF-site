@@ -59,6 +59,7 @@ en:
   header_29: "Optimization"
   header_30: "Translation"
   header_31: "Don't know what to pick?"
+  header_32: "BASIC"
 
   text_1: "Date"
   text_2: "Client"
@@ -111,6 +112,11 @@ en:
   text_41: "DESIGNER & DEVELOPER"
   text_42: "Hi, I'm Nic!"
   text_43: "That's okay, we can help you with choosing the best plan that suits your needs. Contact us and we'll be glad to assist you."
+  text_44: "SSL Certificate"
+  text_45:
+    one: "%{count} MB"
+    other: "%{count} MB"
+  text_46: "Not compatiable with WordPress Site"
 
   send_btn: "Send Message"
   close_btn: "Close Project"
