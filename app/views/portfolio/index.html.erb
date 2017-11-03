@@ -10,6 +10,52 @@
       </div>
     </div>
     <div class="row">
+
+      <div class="col-md-3 col-sm-4 portfolio-item faa-float animated-hover">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i style="color: palegoldenrod;" class="fa fa-search fa-3x"></i>
+            </div>
+          </div>
+          <img style="min-height: 193px;" id="blurme" class="img-responsive" src="<%= asset_path( 'portfolio/demo1.jpg' ) %>" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4><%= t('header_34') %></h4>
+          <p class="text-muted"><%= t('header_35') %></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 portfolio-item faa-float animated-hover">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i style="color: palegoldenrod;" class="fa fa-search fa-3x"></i>
+            </div>
+          </div>
+          <img style="min-height: 193px;" id="blurme" class="img-responsive" src="<%= asset_path( 'portfolio/demo2.jpg' ) %>" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4><%= t('header_34') %></h4>
+          <p class="text-muted"><%= t('header_9') %></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 portfolio-item faa-float animated-hover">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i style="color: palegoldenrod;" class="fa fa-search fa-3x"></i>
+            </div>
+          </div>
+          <img style="min-height: 193px;" id="blurme" class="img-responsive" src="<%= asset_path( 'portfolio/demo2.jpg' ) %>" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4><%= t('header_34') %></h4>
+          <p class="text-muted"><%= t('header_36') %></p>
+        </div>
+      </div>
+
       <div class="col-md-3 col-sm-4 portfolio-item faa-float animated-hover">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
           <div class="portfolio-hover">
@@ -24,6 +70,7 @@
           <p class="text-muted"><%= t('header_9') %></p>
         </div>
       </div>
+
       <div class="col-md-3 col-sm-4 portfolio-item faa-float animated-hover">
         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
           <div class="portfolio-hover">
@@ -38,6 +85,8 @@
           <p class="text-muted"><%= t('header_11') %></p>
         </div>
       </div>
+
+
 
     </div>
   </div>
@@ -118,6 +167,111 @@
   </div>
 </div>
 
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2><%= t('header_34') %></h2>
+              <center>
+                <img class="img-responsive" src="<%= asset_path( 'portfolio/demo1.jpg' ) %>" alt="">
+              </center>
+              <h1><a href="http://demo1.noctiflow.com">demo1.noctiflow.com</a></h1>
+              <ul class="list-inline">
+                <li><%= t('text_1') %>: <%= t('header_34') %></li>
+                <li><%= t('text_2') %>: <%= t('header_34') %></li>
+                <li><%= t('text_3') %>: <%= t('header_34') %></li>
+              </ul>
+              <button class="btn btn-primary faa-float animated-hover faa-slow btnclose" data-dismiss="modal" type="button">
+                <i style="color:black;" class="fa fa-times-circle"></i>
+                <%= t('close_btn') %></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2><%= t('header_34') %></h2>
+              <center>
+                <img class="img-responsive" src="<%= asset_path( 'portfolio/demo2.jpg' ) %>" alt="">
+              </center>
+              <h1><a href="http://demo2.noctiflow.com">demo2.noctiflow.com</a></h1>
+              <ul class="list-inline">
+                <li><%= t('text_1') %>: <%= t('header_34') %></li>
+                <li><%= t('text_2') %>: <%= t('header_34') %></li>
+                <li><%= t('text_3') %>: <%= t('header_34') %></li>
+              </ul>
+              <button class="btn btn-primary faa-float animated-hover faa-slow btnclose" data-dismiss="modal" type="button">
+                <i style="color:black;" class="fa fa-times-circle"></i>
+                <%= t('close_btn') %></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2><%= t('header_34') %></h2>
+              <center>
+                <img class="img-responsive" src="<%= asset_path( 'portfolio/demo2.jpg' ) %>" alt="">
+              </center>
+              <h1><a href="http://demo3.noctiflow.com">demo3.noctiflow.com</a></h1>
+              <ul class="list-inline">
+                <li><%= t('text_1') %>: <%= t('header_34') %></li>
+                <li><%= t('text_2') %>: <%= t('header_34') %></li>
+                <li><%= t('text_3') %>: <%= t('header_34') %></li>
+              </ul>
+              <button class="btn btn-primary faa-float animated-hover faa-slow btnclose" data-dismiss="modal" type="button">
+                <i style="color:black;" class="fa fa-times-circle"></i>
+                <%= t('close_btn') %></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <br>
 <br>
